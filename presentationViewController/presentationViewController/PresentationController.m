@@ -23,7 +23,7 @@
 - (void) presentationTransitionWillBegin {
     
     self.dimmingView.alpha = 0;
-//    [self.containerView addSubview:self.presentedView];
+    [self.containerView addSubview:self.presentedView];
     [self.presentedView setBackgroundColor:[UIColor blueColor]];
     [self.containerView addSubview:self.dimmingView];
     NSMutableArray * arr = [NSMutableArray array];
